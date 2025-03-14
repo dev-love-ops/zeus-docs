@@ -8,7 +8,7 @@ export default defineConfig({
   base: '/zeus-docs/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: '/zeus-docs/static/image/zeus.png',
+    logo: '/zeus-docs/zeus-docs/static/image/zeus.png',
     nav: [
       { text: '项目介绍', link: 'zeus/README' },
       { text: 'Demo',
