@@ -7,7 +7,7 @@ hero:
   text: ""
   tagline: 中小企业一站式运维平台
   image:
-    src: public/zeus.png
+    src: public/image/zeus.png
     alt: Zeus 运维平台
   actions:
     - theme: brand
