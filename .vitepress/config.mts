@@ -6,18 +6,22 @@ export default defineConfig({
   description: "中小企业一站式运维平台",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: 'static/zeus.png',
+    logo: 'static/image/zeus.png',
     nav: [
-      { text: '项目简介', link: '/' },
-      { text: '使用文档', link: '/markdown-examples' }
+      { text: '项目介绍', link: 'zeus/README' },
+      { text: 'Demo',
+      items: [
+        {text: 'Demo-1', link: 'demo'},
+        {text: 'Demo-2', link: 'demo-2'}
+      ]}
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: '运维平台',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: '项目介绍', link: 'zeus/README' },
+          { text: '使用文档', link: 'zeus/USAGE' }
         ]
       }
     ],

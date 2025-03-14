@@ -7,22 +7,22 @@ hero:
   text: ""
   tagline: 中小企业一站式运维平台
   image:
-    src: static/zeus.png
+    src: static/image/zeus.png
     alt: Zeus 运维平台
   actions:
     - theme: brand
       text: 项目介绍
-      link: /markdown-examples
+      link: zeus/README
     - theme: alt
       text: 使用文档
       link: /api-examples
 
 features:
-  - title: 最新技术栈
-    details: SpringBoot3 + Vue3 + Vben Admin等新技术站和框架
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 以应用为中心
+    details: 围绕应用全生命周期设计
+  - title: 使用主流技术栈
+    details: SpringBoot3 + Vue3 + VbenAdmin5等方便二次开发
+  - title: 开箱即用
+    details: 完善的用户权限控制/CMDB/容器和虚拟机的CICD等功能
 ---
 
