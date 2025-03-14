@@ -4,7 +4,8 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Zeus运维平台",
   description: "中小企业一站式运维平台",
-  base: '/zeus-docs/',
+  // base: '/zeus-docs/',
+  base: '/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: 'static/image/zeus.png',
