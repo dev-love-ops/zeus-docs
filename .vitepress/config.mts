@@ -4,8 +4,8 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Zeus运维平台",
   description: "中小企业一站式运维平台",
-  // base: '/zeus-docs/',
-  base: '/',
+  // 因为部署在github pages, 域名是https://dev-love-ops.github.io/zeus-docs/, 所以需要设置base
+  base: '/zeus-docs/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: 'static/image/zeus.png',
