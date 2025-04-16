@@ -7,3 +7,9 @@
 ## 本地启动
 
 `pnpm run docs:dev`
+
+## 发布方式
+
+### 本地编辑
+
+编辑markdown文件
